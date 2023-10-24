@@ -1,6 +1,6 @@
  /* Estilo para el fondo de la página */
  body {
-    background-image: url('https://i.ibb.co/44JPWmX/1n6wsin9.png');
+    background-image: url('./Imagenes/fondoContacto.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -25,10 +25,18 @@ header {
 
 /* Estilo para el pie de página gris con altura fija */
 footer {
-    background-color: rgba(77, 75, 75, 0.9);
-    padding: 20px;
+    background-color: rgba(7, 1, 1, 0.9);
+    padding: 40px;
     height: 10px; /* Altura fija */
+    text-align: center; /* Centra el contenido horizontalmente */
 }
+
+footer p {
+    color: #f3eeee; /* Cambia este valor al color que desees */
+    
+}
+
+
 
 /* Estilo para la parte izquierda (título, subtítulo y párrafo) */
 .izquierda {
@@ -39,11 +47,12 @@ footer {
 
 /* Estilo para el formulario en el lado derecho */
 .formulario {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     width: 30%; /* Ancho del formulario */
-    text-align: left;
+    text-align: center;
     margin-right: 5%; /* Desplazado del margen derecho un 30% */
+    
 }
 
 /* Estilo para las etiquetas de los campos del formulario */
@@ -60,7 +69,7 @@ input[type="tel"],
 textarea {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #ccc; /* Línea de color gris claro con 2px de altura */
+    border-bottom: 1px solid #ca2727; /* Línea de color gris claro con 2px de altura */
     padding: 10px;
     margin-bottom: 20px; /* Añadir margen inferior para separar los campos */
     margin-right: 10%; /* Margen derecho del 10% */

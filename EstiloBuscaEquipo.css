@@ -1,8 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Imagenes/istockphoto-1403600175-170667a.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body h2 {
+    color: #fff;
+}
+
+body h3 {
+    color: #fff;
+}
+
+
+
 .nav ul{
     list-style: none;
     text-align: center;
     /* background-color: rgb(5, 4, 2); */
-    background-image: url('img/soccer field background 1003.jpg');
+    background-image: url('Imagenes/img5.png');
     padding: 0%;
     margin: 0%;
 }
