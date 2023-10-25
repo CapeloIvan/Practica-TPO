@@ -8,6 +8,10 @@ body {
     background-attachment: fixed;
 }
 
+header{
+    background-color: #fff;
+}
+
 body h2 {
     color: #fff;
 }
@@ -41,6 +45,7 @@ body h3 {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    font-family:'Montserrat', sans-serif;
 }
 
 /* Resto de tu código CSS */
@@ -71,4 +76,5 @@ form input[type="tel"]
     padding: 10px;
     margin-bottom : 15px;
     border: 1
-  
+
+    

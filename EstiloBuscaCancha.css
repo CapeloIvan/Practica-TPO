@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('Imagenes/diegote.avif');
+    background-image: url(Imagenes/diegote.avif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,6 +11,7 @@ body {
 body p {
     color: rgb(3, 61, 112);
     size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
 .nav ul{
@@ -49,4 +50,12 @@ footer {
 footer p {
     color: #f3eeee; /* Cambia este valor al color que desees */
     
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
 }
