@@ -10,14 +10,19 @@ body {
 
 header{
     background-color: #fff;
+    
 }
 
-body h2 {
-    color: #fff;
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30;
+    
 }
 
-body h3 {
+h3{
     color: #fff;
+    text-align: center;
 }
 
 
