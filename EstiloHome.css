@@ -62,7 +62,7 @@ p{
     right: 20px;
     background-color: transparent; /* Fondo transparente */
     border: none;
-    color: yellow;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Efecto de transición al pasar el cursor */
@@ -86,7 +86,7 @@ p{
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Alumni Sans Collegiate One';
-    color: yellow;
+    color: rgb(255, 255, 255);
     
 }
 .contenedor2{
