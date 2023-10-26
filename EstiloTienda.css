@@ -57,17 +57,22 @@
 
 .producto-titulo{
     font-family: 'Montserrat', sans-serif;
-    
+    color: white;
     font-size: 1rem;
 }
 
-.producto-agregar{
+.product-agregar{
     font-family: 'Montserrat', sans-serif;
     border: 0;
-    padding: 3rem;
+    padding: 1rem;
     text-transform: uppercase;
     cursor: pointer;
-    border: 2px;
+    border-radius: 1rem;
+}
+
+.producto-precio{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .producto-agregar:hover{
