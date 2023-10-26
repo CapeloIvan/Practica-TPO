@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .nav ul{
     list-style: none;
     text-align: center;
@@ -24,58 +31,49 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.contenedor{
+.contenedor-productos{
     display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
-.producto{
-    text-align: center;
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
 }
 
-.producto img{
-    width: 15%;
-    height: auto;
-}
-
-.producto p{
-    margin: 15px 0;
-    color: #ffffff;
-    font-family:'Montserrat', sans-serif;
-}
-
-.producto button{
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.producto button:hover{
-    background-color: #2f9534;
-}  
-
-
-h1{
-    text-align: center;
+.producto-detalles{
+    background-color: rgb(2, 126, 2);
+    padding: 1rem;
+    border-radius: 1rem;
+    border-top: -1rem;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    
+}
+
+.producto-titulo{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 1rem;
+}
+
+.producto-agregar{
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    padding: 3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px;
+}
+
+.producto-agregar:hover{
+    background-color: black;
+    
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-image: url(Imagenes/Fondo\ Tienda.jpg)
-    
+    background-image: url(Imagenes/Cesped.jpg);
 }
 
 header{
