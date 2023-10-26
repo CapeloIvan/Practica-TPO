@@ -53,6 +53,25 @@ h3{
     font-family:'Montserrat', sans-serif;
 }
 
+/* Estilo para el pie de página gris con altura fija */
+footer {
+    background-color: rgba(7, 1, 1, 0.9);
+    padding: 20px;
+    height: 10px; /* Altura fija */
+    text-align: center; /* Centra el contenido horizontalmente */
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    color: #f3eeee; /* Cambia este valor al color que desees */
+    
+}
+
+
+
+
+
+
 /* Resto de tu código CSS */
 
 /* Estilo para el formulario */
@@ -82,5 +101,7 @@ form input[type="tel"]
     padding: 10px;
     margin-bottom : 15px;
     border: 1
+
+
 
     
