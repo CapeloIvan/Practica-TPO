@@ -36,11 +36,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    margin-top: 2rem;
     
 }
 
 .producto-imagen{
     max-width: 100%;
+    
     border-radius: 1rem;
     
 }
